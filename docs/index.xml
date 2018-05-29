@@ -36,7 +36,7 @@ CDC Controller GPIO Inputs: The CDC controller has 8 GPIO inputs as shown in the
     <item>
       <title>CDC3_Host</title>
       <link>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</link>
-      <pubDate>Wed, 23 May 2018 15:52:28 -0700</pubDate>
+      <pubDate>Wed, 23 May 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</guid>
       <description>Quick Summary This document describes the architecture of the CDC3 Host Interface, where the platform for execution is a Linux box. &amp;lsquo;Interface&amp;rsquo; is a physical USB connection between the Linux box and the CDC3 Control Processor.
@@ -52,6 +52,24 @@ serial_recv Module The serial_recv Module accepts input packets from the CDC3 Pr
       <guid>https://ice-energy.github.io/user9/post/post_001/proj_readyforpic/</guid>
       <description>Quick Summary Program showing proper initialization and startup of the oscillator
 Hello World Random Random Random</description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://ice-energy.github.io/user9/page/disclaimer/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/disclaimer/</guid>
+      <description>Disclaimer  Your disclaimer text here NOTE:Some information in this website might be copied from other websites. If you see something is your copyright or something should not belong here, please feel free to contact me. I will remove necessary parts.     </description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://ice-energy.github.io/user9/page/license/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/license/</guid>
+      <description>LICENSE  Unless otherwise mentioned code from this blog can used as per MIT or Apache 2.0 license.     </description>
     </item>
     
     <item>
@@ -72,10 +90,10 @@ similarities in go templates.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://ice-energy.github.io/user9/about/</link>
+      <link>https://ice-energy.github.io/user9/page/about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ice-energy.github.io/user9/about/</guid>
+      <guid>https://ice-energy.github.io/user9/page/about-me/</guid>
       <description>User Nine 
 Need a few lines here for About
 The Sublime, The Poetic, and the Down &amp;amp; Dirty Technical Know-How</description>

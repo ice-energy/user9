@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 23 May 2018 15:52:28 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 May 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ice-energy.github.io/user9/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>CDC3_Host</title>
       <link>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</link>
-      <pubDate>Wed, 23 May 2018 15:52:28 -0700</pubDate>
+      <pubDate>Wed, 23 May 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</guid>
       <description>Quick Summary This document describes the architecture of the CDC3 Host Interface, where the platform for execution is a Linux box. &amp;lsquo;Interface&amp;rsquo; is a physical USB connection between the Linux box and the CDC3 Control Processor.

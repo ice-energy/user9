@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on user9_docrepo</title>
+    <link>https://ice-energy.github.io/user9/page/</link>
+    <description>Recent content in Pages on user9_docrepo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://ice-energy.github.io/user9/page/disclaimer/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/disclaimer/</guid>
+      <description>Disclaimer  Your disclaimer text here NOTE:Some information in this website might be copied from other websites. If you see something is your copyright or something should not belong here, please feel free to contact me. I will remove necessary parts.     </description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://ice-energy.github.io/user9/page/license/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/license/</guid>
+      <description>LICENSE  Unless otherwise mentioned code from this blog can used as per MIT or Apache 2.0 license.     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ice-energy.github.io/user9/page/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/about-me/</guid>
+      <description>User Nine 
+Need a few lines here for About
+The Sublime, The Poetic, and the Down &amp;amp; Dirty Technical Know-How</description>
+    </item>
+    
+  </channel>
+</rss>

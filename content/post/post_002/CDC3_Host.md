@@ -1,19 +1,11 @@
----
-title: "CDC3_Host"
-date: 2018-05-23T15:52:28-07:00
-draft: false
-thumbnail: "/user9/img/cover_CDC3Host.jpg"
-tags:
-  - "zmq"
-  - "linux"
-categories:
-  - "Development"
-description: "This document describes the architecture of the
-*CDC3 Host Interface*, where the platform for execution is a Linux box.
-'Interface' is a physical USB connection between the Linux box and the
-CDC3 Control Processor"
-menu: main
----
++++
+title        = "CDC3_Host"
+tags         = ["zmq","linux"]
+categories   = ["Development"]
+date         = 2018-05-23
+banner       = "/user9/img/cover_CDC3Host.jpg"
+description  = "This document describes the architecture of the *CDC3 Host Interface*, where the platform for execution is a Linux box.  'Interface' is a physical USB connection between the Linux box and the CDC3 Control Processor"
++++
 
 **Quick Summary**  This document describes the architecture of the
 *CDC3 Host Interface*, where the platform for execution is a Linux box.

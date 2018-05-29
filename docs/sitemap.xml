@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</loc>
-    <lastmod>2018-05-23T15:52:28-07:00</lastmod>
+    <lastmod>2018-05-23T00:00:00-07:00</lastmod>
   </url>
   
   <url>
@@ -23,12 +23,22 @@
   </url>
   
   <url>
+    <loc>https://ice-energy.github.io/user9/page/disclaimer/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ice-energy.github.io/user9/page/license/</loc>
+    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ice-energy.github.io/user9/post/post_005/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ice-energy.github.io/user9/about/</loc>
+    <loc>https://ice-energy.github.io/user9/page/about-me/</loc>
   </url>
   
   <url>
@@ -45,7 +55,7 @@
   
   <url>
     <loc>https://ice-energy.github.io/user9/categories/development/</loc>
-    <lastmod>2018-05-23T15:52:28-07:00</lastmod>
+    <lastmod>2018-05-23T00:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,13 +67,19 @@
   
   <url>
     <loc>https://ice-energy.github.io/user9/tags/linux/</loc>
-    <lastmod>2018-05-23T15:52:28-07:00</lastmod>
+    <lastmod>2018-05-23T00:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ice-energy.github.io/user9/tags/modbus/</loc>
     <lastmod>2018-05-25T14:55:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ice-energy.github.io/user9/page/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,7 +121,7 @@
   
   <url>
     <loc>https://ice-energy.github.io/user9/tags/zmq/</loc>
-    <lastmod>2018-05-23T15:52:28-07:00</lastmod>
+    <lastmod>2018-05-23T00:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   

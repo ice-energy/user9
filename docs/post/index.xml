@@ -36,7 +36,7 @@ CDC Controller GPIO Inputs: The CDC controller has 8 GPIO inputs as shown in the
     <item>
       <title>CDC3_Host</title>
       <link>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</link>
-      <pubDate>Wed, 23 May 2018 15:52:28 -0700</pubDate>
+      <pubDate>Wed, 23 May 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</guid>
       <description>Quick Summary This document describes the architecture of the CDC3 Host Interface, where the platform for execution is a Linux box. &amp;lsquo;Interface&amp;rsquo; is a physical USB connection between the Linux box and the CDC3 Control Processor.
