@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on user9_docrepo</title>
+    <link>https://ice-energy.github.io/user9/categories/development/</link>
+    <description>Recent content in Development on user9_docrepo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 23 May 2018 15:52:28 -0700</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CDC3_Host</title>
+      <link>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</link>
+      <pubDate>Wed, 23 May 2018 15:52:28 -0700</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_002/cdc3_host/</guid>
+      <description>Quick Summary This document describes the architecture of the CDC3 Host Interface, where the platform for execution is a Linux box. &amp;lsquo;Interface&amp;rsquo; is a physical USB connection between the Linux box and the CDC3 Control Processor.
+The Host Interface implements a fairly standard packet exchange mechanism, where data packets of size LESS THAN 256 are exchanged with the CDC3 Processor.
+serial_recv Module The serial_recv Module accepts input packets from the CDC3 Processor, and then routes them forward to other modules to do the actual work that is requested.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://ice-energy.github.io/user9/post/post_005/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_005/goisforlovers/</guid>
+      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in go templates.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

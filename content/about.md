@@ -1,8 +1,7 @@
-<h1>User One</h1>
+<h1>User Nine</h1>
 
 ----
 <br>
 Need a few lines here for About
 
-Glasses wearing logical thinking pragmatist by day, tv-watching shopping
-channel addict by night.
+The Sublime, The Poetic, and the Down & Dirty Technical Know-How

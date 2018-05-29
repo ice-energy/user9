@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on user9_docrepo</title>
+    <link>https://ice-energy.github.io/user9/categories/</link>
+    <description>Recent content in Categories on user9_docrepo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 May 2018 21:52:28 -0700</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bareboards</title>
+      <link>https://ice-energy.github.io/user9/categories/bareboards/</link>
+      <pubDate>Fri, 11 May 2018 21:52:28 -0700</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/categories/bareboards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://ice-energy.github.io/user9/categories/development/</link>
+      <pubDate>Wed, 23 May 2018 15:52:28 -0700</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems/Solutions</title>
+      <link>https://ice-energy.github.io/user9/categories/systems/solutions/</link>
+      <pubDate>Sat, 26 May 2018 12:19:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/categories/systems/solutions/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

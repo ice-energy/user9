@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems/Solutions on user9_docrepo</title>
+    <link>https://ice-energy.github.io/user9/categories/systems/solutions/</link>
+    <description>Recent content in Systems/Solutions on user9_docrepo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 26 May 2018 12:19:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/categories/systems/solutions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wall Mounted Desktop</title>
+      <link>https://ice-energy.github.io/user9/post/post_008/wallmounted_desktop/</link>
+      <pubDate>Sat, 26 May 2018 12:19:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_008/wallmounted_desktop/</guid>
+      <description>Because every Mad (Computer) Scientist needs their Hardware Wall-Mounted!
+I put together this computer largely from spare parts and Amazon points from my Amex. So barely cost anything, and I thought it would be perfect as a server for Zoneminder.
+This was built with the intention of putting it in an enclosure. It started out sitting on my bookshelf, where I used some half-inch standoffs to raise it up. Here&amp;rsquo;s a pic:</description>
+    </item>
+    
+    <item>
+      <title>IceBear Control Using PLC</title>
+      <link>https://ice-energy.github.io/user9/post/post_007/plc_controls_icebear/</link>
+      <pubDate>Fri, 25 May 2018 14:55:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_007/plc_controls_icebear/</guid>
+      <description>Quick Summary: An off-the-shelf external controller may be used to interface directly with the CDC controller to control the IceBears&amp;rsquo; cycle of Making Ice and Providing Cooling. An example scenario will be shown using a PLC-type controller with a Modbus interface that is used to control an IceBear AND ALSO extract data from it.
+CDC Controller GPIO Inputs: The CDC controller has 8 GPIO inputs as shown in the above picture:</description>
+    </item>
+    
+  </channel>
+</rss>
