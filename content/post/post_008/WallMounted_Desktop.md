@@ -1,17 +1,17 @@
----
-title:  "Wall Mounted Desktop"
-date:   2018-05-26T12:19:00
-tags:
-- zoneminder
-- Ubuntu
-categories:
-- Systems/Solutions
-description : "Because every Mad (Computer) Scientist needs their Hardware Wall-Mounted"
-draft: false
-thumbnail: "/user1/img/cover_wallmounted.jpg"
-menu: main
++++
+title        = "Wall-Mounted Desktop"
+date         = 2018-05-26T12:19:00
+tags         = ["zoneminder","Ubuntu"]
+categories   = ["Systems/Solutions"]
+description  = "Because every Mad (Computer) Scientist needs their Hardware Wall-Mounted"
+draft        = false
+banner       = "/user9/img/cover_wallmounted.jpg"
++++
 
----
+
+
+
+
 
 Because every Mad (Computer) Scientist needs their Hardware Wall-Mounted!
 
