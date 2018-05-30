@@ -151,8 +151,7 @@ Works great with both my Logitech keyboard (K810), and my Logitech Mouse (MX Mas
 <br>
 <br>
 
-![picEnd](../img/dq77kb_close.jpg)
-
+![picEnd](../img/Wallmounted_825.jpg)
 
 <br>
 <br>
