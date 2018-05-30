@@ -1,5 +1,5 @@
   <div class="container">
-    {{ if isset .Site.Params.showBlogHeader true }}
+    {{ if isset .Site.Params "showBlogHeader" }}
       <div class="row">
         <header>
           {{ partial "content/h1-title" . }}

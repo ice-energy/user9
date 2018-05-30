@@ -120,6 +120,12 @@
   </url>
   
   <url>
+    <loc>https://ice-energy.github.io/user9/</loc>
+    <lastmod>2018-05-26T12:19:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ice-energy.github.io/user9/tags/zmq/</loc>
     <lastmod>2018-05-23T00:00:00-07:00</lastmod>
     <priority>0</priority>
@@ -127,12 +133,6 @@
   
   <url>
     <loc>https://ice-energy.github.io/user9/tags/zoneminder/</loc>
-    <lastmod>2018-05-26T12:19:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ice-energy.github.io/user9/</loc>
     <lastmod>2018-05-26T12:19:00-07:00</lastmod>
     <priority>0</priority>
   </url>
