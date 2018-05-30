@@ -4,7 +4,7 @@ date         = 2018-05-25T14:55:00
 tags         = ["modbus","PLC"]
 categories   = ["Systems/Solutions"]
 description  = "a PLC-type controller with a Modbus interface is used to control an IceBear and also extract data from it"
-banner       = "/user1/img/cover_PLCmodules.png"
+banner       = "/user9/img/cover_PLCmodules.png"
 draft        = false
 +++
 
