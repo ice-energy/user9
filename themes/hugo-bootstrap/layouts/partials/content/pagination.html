@@ -4,7 +4,7 @@
       {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           {{ if .Paginator.HasPrev }}
             <li class="page-item">
-              <a class="page-link" rel="prev" href="{{ .Paginator.Prev.URL | relURL }}">
+              <a class="page-link" rel="prev" href="{{ .Paginator.Prev.URL }}">
                   « Previous
               </a>
             </li>
