@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 25 May 2018 14:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 May 2018 14:55:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ice-energy.github.io/user9/tags/plc/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>IceBear Control Using PLC</title>
       <link>https://ice-energy.github.io/user9/post/post_007/plc_controls_icebear/</link>
-      <pubDate>Fri, 25 May 2018 14:55:00 +0000</pubDate>
+      <pubDate>Fri, 25 May 2018 14:55:00 -0700</pubDate>
       
       <guid>https://ice-energy.github.io/user9/post/post_007/plc_controls_icebear/</guid>
       <description>Quick Summary: An off-the-shelf external controller may be used to interface directly with the CDC controller to control the IceBears&amp;rsquo; cycle of Making Ice and Providing Cooling. An example scenario will be shown using a PLC-type controller with a Modbus interface that is used to control an IceBear AND ALSO extract data from it.

@@ -1,18 +1,12 @@
----
-title:  "IceBear Control Using PLC"
-date:   2018-05-25T14:55:00
-tags:
-- modbus
-- PLC
-categories:
-- Systems/Solutions
-description : "a PLC-type controller with a Modbus interface is used to control an
-IceBear and also extract data from it"
-thumbnail: "/user1/img/cover_PLCmodules.png"
-draft: false
-menu: main
-
----
++++
+title        = "IceBear Control Using PLC"
+date         = 2018-05-25T14:55:00
+tags         = ["modbus","PLC"]
+categories   = ["Systems/Solutions"]
+description  = "a PLC-type controller with a Modbus interface is used to control an IceBear and also extract data from it"
+banner       = "/user1/img/cover_PLCmodules.png"
+draft        = false
++++
 
 **Quick Summary:**  An off-the-shelf external controller may be used to interface
 directly with the CDC controller to control the IceBears' cycle of *Making Ice and 
