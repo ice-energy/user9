@@ -28,7 +28,7 @@ From a programming perspective, input coming from USB is a simple byte
 stream.   *serial_recv* takes this byte input stream and makes data packets
 out of them.   The incoming byte stream looks like this:
 
-```
+
         0xAA       Start of Packet
         0x57       Start of Packet
         Cmd        Cmd Byte
@@ -39,7 +39,7 @@ out of them.   The incoming byte stream looks like this:
         ..
         ..
         data[len-1]
-```
+
 
 *serial_recv* will very slightly modify this input packet to produce a packet
 that will be forwarded on.    Here is the version of the packet that is

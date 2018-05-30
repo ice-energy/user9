@@ -213,16 +213,16 @@ that is requested.</p>
 stream.   <em>serial_recv</em> takes this byte input stream and makes data packets
 out of them.   The incoming byte stream looks like this:</p>
 
-<pre><code>        0xAA       Start of Packet
-        0x57       Start of Packet
-        Cmd        Cmd Byte
-        Len        Len of Data only, 254 bytes max
-        tag        a sequnce number
-        csum       checksum
-        data[0]
-        ..
-        ..
-        data[len-1]
+<pre><code>    0xAA       Start of Packet
+    0x57       Start of Packet
+    Cmd        Cmd Byte
+    Len        Len of Data only, 254 bytes max
+    tag        a sequnce number
+    csum       checksum
+    data[0]
+    ..
+    ..
+    data[len-1]
 </code></pre>
 
 <p><em>serial_recv</em> will very slightly modify this input packet to produce a packet
