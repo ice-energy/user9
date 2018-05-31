@@ -18,7 +18,7 @@ from it.
 
 # CDC Controller GPIO Inputs:
 
-{{< myfigure src="../img/gpio_inputs_header.png" alt="pic1" >}}
+{{< figure src="../img/gpio_inputs_header.png" alt="pic1" >}}
 
 
 The CDC controller has 8 GPIO inputs as shown in the above picture:
@@ -30,7 +30,7 @@ The CDC controller has 8 GPIO inputs as shown in the above picture:
 Pin #3 of GPIO inputs is dedicated to the `Make Ice` function.  If pin 3 is
 jumpered to 5v, the unit will go into `Make-Ice` mode.
 
-{{< myfigure src="../img/force_make.png" alt="pic2" >}}
+{{< figure src="../img/force_make.png" alt="pic2" >}}
 
 Placing a jumper in like this is a common way for Ice-Energy technicians to
 put the Bear into `Make-Ice` mode *WITHOUT HAVING TO ACCESS THE HOME PAGE*.
@@ -69,7 +69,7 @@ interface over TCP/IP, and they're fairly easy to understand and wire up.
 Automation Direct has a nice website for configuring modules together in a package.
 Here's a photo of the units necessary for interfacing with a CDC controller:
 
-{{< myfigure src="../img/cover_PLCmodules.png" alt="pic3" >}}
+{{< figure src="../img/cover_PLCmodules.png" alt="pic3" >}}
 
 Some highlights of these modules:
 
@@ -84,7 +84,7 @@ Some highlights of these modules:
 # Detailed Wiring Diagram
 
 
-{{< myfigure src="../img/Wiring.png" alt="pic4" >}}
+{{< figure src="../img/Wiring.png" alt="pic4" >}}
 
 ---
 
@@ -189,7 +189,7 @@ Click PLC.  I used this client to verify all the functionality described above.
 
 Here's a screenshot of the client:
 
-{{< myfigure src="../img/wintcpclient.png" alt="pic5" >}}
+{{< figure src="../img/wintcpclient.png" alt="pic5" >}}
 
 ---
 
@@ -210,7 +210,7 @@ Enter the *Modbus Client, Linux*!!
 Under Ubuntu Linux there's a Modbus library that's installable through the synaptic
 package manager.
 
-{{< myfigure src="../img/modbus_synaptic.png" alt="pic6" >}}
+{{< figure src="../img/modbus_synaptic.png" alt="pic6" >}}
 
 This all originates from [libmodbus.org](http://libmodbus.org).
 

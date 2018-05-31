@@ -30,7 +30,7 @@ This was built with the intention of putting it in an enclosure. It started out 
       
       <guid>https://ice-energy.github.io/user9/post/post_007/plc_controls_icebear/</guid>
       <description>Quick Summary: An off-the-shelf external controller may be used to interface directly with the CDC controller to control the IceBears&amp;rsquo; cycle of Making Ice and Providing Cooling. An example scenario will be shown using a PLC-type controller with a Modbus interface that is used to control an IceBear AND ALSO extract data from it.
-CDC Controller GPIO Inputs:    The CDC controller has 8 GPIO inputs as shown in the above picture:</description>
+CDC Controller GPIO Inputs:   The CDC controller has 8 GPIO inputs as shown in the above picture:</description>
     </item>
     
   </channel>
