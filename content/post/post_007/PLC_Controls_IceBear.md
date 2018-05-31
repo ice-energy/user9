@@ -18,7 +18,7 @@ from it.
 
 # CDC Controller GPIO Inputs:
 
-{{< figure src="../img/gpio_inputs_header.png" alt="pic1" class="img-fluid" >}}
+{{< myfigure src="../img/gpio_inputs_header.png" alt="pic1" class="img-fluid" >}}
 
 
 The CDC controller has 8 GPIO inputs as shown in the above picture:
