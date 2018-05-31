@@ -54,7 +54,7 @@
     },
     "datePublished": "2018-05-25",
     "description": "a PLC-type controller with a Modbus interface is used to control an IceBear and also extract data from it",
-    "wordCount": 927
+    "wordCount": 926
   }
 </script>
 
@@ -152,7 +152,7 @@
 
     
     &middot; 5 Minute Read
-    &middot; 927 Words
+    &middot; 926 Words
   </div>
 
   
@@ -204,13 +204,9 @@ from it.</p>
 
 
 <myfigure>
-    
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="../img/gpio_inputs_header.png" alt="pic1"  class="lazyload" />
-        <noscript>
-          <img src="../img/gpio_inputs_header.png" alt="pic1" class="img-fluid">/>
-        </noscript>
-    
-    
+    <p>
+      <img src="../img/gpio_inputs_header.png" alt="pic1"  class="img-fluid"/>
+    </p>
 </myfigure>
 
 
@@ -226,7 +222,14 @@ from it.</p>
 <p>Pin #3 of GPIO inputs is dedicated to the <code>Make Ice</code> function.  If pin 3 is
 jumpered to 5v, the unit will go into <code>Make-Ice</code> mode.</p>
 
-<p><img src="../img/force_make.png" alt="pic2" /></p>
+
+<myfigure>
+    <p>
+      <img src="../img/force_make.png" alt="pic2"  class="img-fluid"/>
+    </p>
+</myfigure>
+
+
 
 <p>Placing a jumper in like this is a common way for Ice-Energy technicians to
 put the Bear into <code>Make-Ice</code> mode <em>WITHOUT HAVING TO ACCESS THE HOME PAGE</em>.</p>
@@ -267,7 +270,14 @@ interface over TCP/IP, and they&rsquo;re fairly easy to understand and wire up.<
 <p>Automation Direct has a nice website for configuring modules together in a package.
 Here&rsquo;s a photo of the units necessary for interfacing with a CDC controller:</p>
 
-<p><img src="../img/cover_PLCmodules.png" alt="pic3" /></p>
+
+<myfigure>
+    <p>
+      <img src="../img/cover_PLCmodules.png" alt="pic3"  class="img-fluid"/>
+    </p>
+</myfigure>
+
+
 
 <p>Some highlights of these modules:</p>
 
@@ -283,7 +293,14 @@ Here&rsquo;s a photo of the units necessary for interfacing with a CDC controlle
 
 <h1 id="detailed-wiring-diagram">Detailed Wiring Diagram</h1>
 
-<p><img src="../img/Wiring.png" alt="pic4" /></p>
+
+<myfigure>
+    <p>
+      <img src="../img/Wiring.png" alt="pic4"  class="img-fluid"/>
+    </p>
+</myfigure>
+
+
 
 <hr />
 
@@ -378,7 +395,14 @@ Click PLC.  I used this client to verify all the functionality described above.<
 
 <p>Here&rsquo;s a screenshot of the client:</p>
 
-<p><img src="../img/wintcpclient.png" alt="pic5" /></p>
+
+<myfigure>
+    <p>
+      <img src="../img/wintcpclient.png" alt="pic5"  class="img-fluid"/>
+    </p>
+</myfigure>
+
+
 
 <hr />
 
@@ -403,7 +427,14 @@ This is the typical process:</p>
 <p>Under Ubuntu Linux there&rsquo;s a Modbus library that&rsquo;s installable through the synaptic
 package manager.</p>
 
-<p><img src="../img/modbus_synaptic.png" alt="pic6" /></p>
+
+<myfigure>
+    <p>
+      <img src="../img/modbus_synaptic.png" alt="pic6"  class="img-fluid"/>
+    </p>
+</myfigure>
+
+
 
 <p>This all originates from <a href="http://libmodbus.org">libmodbus.org</a>.</p>
 

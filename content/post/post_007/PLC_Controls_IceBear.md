@@ -18,7 +18,7 @@ from it.
 
 # CDC Controller GPIO Inputs:
 
-{{< myfigure src="../img/gpio_inputs_header.png" alt="pic1" class="img-fluid" >}}
+{{< myfigure src="../img/gpio_inputs_header.png" alt="pic1" >}}
 
 
 The CDC controller has 8 GPIO inputs as shown in the above picture:
@@ -30,7 +30,7 @@ The CDC controller has 8 GPIO inputs as shown in the above picture:
 Pin #3 of GPIO inputs is dedicated to the `Make Ice` function.  If pin 3 is
 jumpered to 5v, the unit will go into `Make-Ice` mode.
 
-![pic2](../img/force_make.png)  
+{{< myfigure src="../img/force_make.png" alt="pic2" >}}
 
 Placing a jumper in like this is a common way for Ice-Energy technicians to
 put the Bear into `Make-Ice` mode *WITHOUT HAVING TO ACCESS THE HOME PAGE*.
@@ -69,7 +69,7 @@ interface over TCP/IP, and they're fairly easy to understand and wire up.
 Automation Direct has a nice website for configuring modules together in a package.
 Here's a photo of the units necessary for interfacing with a CDC controller:
 
-![pic3](../img/cover_PLCmodules.png)  
+{{< myfigure src="../img/cover_PLCmodules.png" alt="pic3" >}}
 
 Some highlights of these modules:
 
@@ -84,7 +84,7 @@ Some highlights of these modules:
 # Detailed Wiring Diagram
 
 
-![pic4](../img/Wiring.png)  
+{{< myfigure src="../img/Wiring.png" alt="pic4" >}}
 
 ---
 
@@ -112,12 +112,12 @@ Else
 
 ## DS2 = register 40002 (Host Write / PLC Read)
 
-```
-If DS2 == 1 Then
-    ForceMelt = ON      // relay output module (N02)
-Else
-    ForceMelt = OFF
-```
+
+    If DS2 == 1 Then
+        ForceMelt = ON      // relay output module (N02)
+    Else
+        ForceMelt = OFF
+
 
 ## DS3 = register 40003 (Host Write / PLC Read)
 
@@ -189,7 +189,7 @@ Click PLC.  I used this client to verify all the functionality described above.
 
 Here's a screenshot of the client:
 
-![pic5](../img/wintcpclient.png)
+{{< myfigure src="../img/wintcpclient.png" alt="pic5" >}}
 
 ---
 
@@ -210,7 +210,7 @@ Enter the *Modbus Client, Linux*!!
 Under Ubuntu Linux there's a Modbus library that's installable through the synaptic
 package manager.
 
-![pic6](../img/modbus_synaptic.png)
+{{< myfigure src="../img/modbus_synaptic.png" alt="pic6" >}}
 
 This all originates from [libmodbus.org](http://libmodbus.org).
 
