@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esp32 on User9 Docs n Recs</title>
+    <link>https://ice-energy.github.io/user9/tags/esp32/</link>
+    <description>Recent content in Esp32 on User9 Docs n Recs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 28 Jan 2018 18:59:43 +0530</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mongoose OS on ESPer</title>
+      <link>https://ice-energy.github.io/user9/post/post_004/mos/</link>
+      <pubDate>Sun, 28 Jan 2018 18:59:43 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_004/mos/</guid>
+      <description>Recently I&amp;rsquo;ve got my hands on the craved-for IoT ESP32, thanks to DFRobot, and have been tinkering with it ever since. I&amp;rsquo;m really amazed by it since it packs both Bluetooth and WiFi in a small yet powerful unit. Since I received the MCU rather than the module, so, to use it, I made myself a breakout board named ESPer(because, why not? :smile:). Feel free to check out its Instructions over here.</description>
+    </item>
+    
+  </channel>
+</rss>

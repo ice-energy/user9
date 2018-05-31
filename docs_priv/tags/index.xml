@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on User9 Docs n Recs</title>
+    <link>https://ice-energy.github.io/user9/tags/</link>
+    <description>Recent content in Tags on User9 Docs n Recs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 14 Jan 2018 14:28:40 +0530</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Django</title>
+      <link>https://ice-energy.github.io/user9/tags/django/</link>
+      <pubDate>Sun, 14 Jan 2018 14:28:40 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esp32</title>
+      <link>https://ice-energy.github.io/user9/tags/esp32/</link>
+      <pubDate>Sun, 28 Jan 2018 18:59:43 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/tags/esp32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Code In</title>
+      <link>https://ice-energy.github.io/user9/tags/google-code-in/</link>
+      <pubDate>Sat, 13 Jan 2018 10:29:23 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/tags/google-code-in/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openwisp</title>
+      <link>https://ice-energy.github.io/user9/tags/openwisp/</link>
+      <pubDate>Sun, 14 Jan 2018 14:28:40 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/tags/openwisp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

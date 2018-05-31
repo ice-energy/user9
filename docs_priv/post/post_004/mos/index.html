@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Mongoose OS on ESPer  &middot; User9 Docs n Recs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="A tutorial on how to install Mongoose OS on ESPer." />
+
+<meta name="keywords" content="esp32, ">
+
+
+<meta property="og:title" content="Mongoose OS on ESPer  &middot; User9 Docs n Recs ">
+<meta property="og:site_name" content="User9 Docs n Recs"/>
+<meta property="og:url" content="https://ice-energy.github.io/user9/post/post_004/mos/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="A tutorial on how to install Mongoose OS on ESPer."/>
+<meta property="og:article:published_time" content="2018-01-28T18:59:43&#43;05:30" />
+<meta property="og:article:modified_time" content="2018-01-28T18:59:43&#43;05:30" />
+
+  
+    
+<meta property="og:article:tag" content="esp32">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="Mongoose OS on ESPer" />
+<meta name="twitter:description" content="A tutorial on how to install Mongoose OS on ESPer." />
+<meta name="twitter:url" content="https://ice-energy.github.io/user9/post/post_004/mos/" />
+<meta name="twitter:domain" content="https://ice-energy.github.io/user9">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Mongoose OS on ESPer",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2018-01-28",
+    "description": "A tutorial on how to install Mongoose OS on ESPer.",
+    "wordCount": 911
+  }
+</script>
+
+
+
+<link rel="canonical" href="https://ice-energy.github.io/user9/post/post_004/mos/" />
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+
+  <link rel="stylesheet" href="/user9/assets/css/style.css">
+  <link rel="stylesheet" href="/user9/assets/css/tomorrow-night.css">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/user9/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/user9/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/user9/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/user9/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/user9/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/user9/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/user9/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/user9/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/user9/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/user9/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/user9/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/user9/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/user9/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Mongoose OS on ESPer"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/user9/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/user9/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/user9/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/user9/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/user9/mstile-310x310.png" />
+
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-md fixed-top site-navbar bg-info">
+    <a class="navbar-brand text-white" href="https://ice-energy.github.io/user9">User9 Docs n Recs</a>
+  <button class="navbar-toggler" 
+  type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2"
+    aria-expanded="false" aria-label="Toggle navigation">
+    &#9776;
+  </button>
+  <div class="collapse navbar-collapse" id="exCollapsingNavbar2">
+    <ul class="nav navbar-nav ml-auto">
+       
+      <li class="nav-item">
+        <a class="nav-link menu-item" href="/user9/tags/">
+          <i class='fa fa-tags'></i>
+          <span class="text-capitalize no-decoration text-white">TAGS</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link menu-item" href="/user9/categories/">
+          <i class='fa fa-folder-open'></i>
+          <span class="text-capitalize no-decoration text-white">CATEGORIES</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link menu-item" href="/user9/page/about-me">
+          <i class='fa fa-info-circle'></i>
+          <span class="text-capitalize no-decoration text-white">ABOUT</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+<div class="container p-a-0">
+  <div class="row m-l-0 m-r-0">
+    <div class="col-xs-12 col-md-9 post-container">
+      <div>
+  
+
+  <h1 class="post-title mb-1">Mongoose OS on ESPer
+</h1>
+
+  <div class="post-meta">
+  <div class="post-meta-item">
+    <i class="fa fa-calendar"></i>
+    <time datetime="2018-01-28">28 Jan, 2018</time>
+
+    
+    &middot; 5 Minute Read
+    &middot; 911 Words
+  </div>
+
+  
+
+  
+      
+      
+        <div class="post-meta-item">
+          <i class="fa fa-tags"></i>
+          
+          <a href="/user9/tags/esp32/">esp32</a>
+          
+          
+        </div>
+      
+  
+  
+
+</div>
+
+</div>
+
+      <div class="content pt-2">
+  
+
+<p><img src="../img/cover_esp32Mongoose.jpg" alt="Intro" /></p>
+
+<p>Recently I&rsquo;ve got my hands on the craved-for IoT <strong>ESP32</strong>, thanks to
+<strong><a href="https://www.dfrobot.com">DFRobot</a></strong>, and have been tinkering with it ever since.
+I&rsquo;m really amazed by it since it packs both <strong>Bluetooth</strong> and <strong>WiFi</strong> in a small yet
+powerful unit. Since I received the <strong>MCU</strong> rather than the module, so, to use it, I
+made myself a breakout board named <strong>ESPer</strong>(because, why not? :smile:). Feel free to
+check out its Instructions over
+<a href="https://www.instructables.com/id/DIY-ESP32-Development-Board-ESPer/">here</a>.</p>
+
+<p>So, coming back on track, this post is dedicated on how to use it efficiently via
+<strong>Mongoose OS</strong>, which in my opinion, is a great firmware to start with for ESP32
+beginners, such as me. It provides a good interface for creating, modifying
+and uploading code. I think it&rsquo;s biggest feature is that it allows code
+modification <strong>over the air</strong>(OTA) so that you don&rsquo;t have to flash your device
+for every small modification.</p>
+
+<p>Speaking of code, it also supports a variety of languages, including
+<strong>C++</strong>, <strong>JavaScript</strong> and guess what, <strong>Wiring(Arduino)</strong>. I think that&rsquo;s
+enough of decribing what Mongoose OS is.</p>
+
+<p>If you&rsquo;re more curious about Mongoose OS, check out it&rsquo;s official site:
+<a href="https://www.mongoose-os.com">Mongoose OS</a>.</p>
+
+<hr />
+
+<h1 id="prepping-and-beginning">Prepping and Beginning!</h1>
+
+<p>To flash your <strong>ESPer</strong> with <strong>Mongoose OS</strong>, you&rsquo;re supposed to have the following
+things at bay:</p>
+
+<ul>
+<li>ESPer or ESP32 MCU.</li>
+</ul>
+
+<blockquote>
+<p>This method will also work if your ESP32 is wired according to the ESPer schematic
+    <a href="https://cdn.instructables.com/FOU/1WS0/JBE12R70/FOU1WS0JBE12R70.LARGE.jpg">here</a>.
+    The <a href="https://www.dfrobot.com/product-1559.html">ESP32</a> chip I used!</p>
+</blockquote>
+
+<ul>
+<li>Arduino(any model) or a USB to TTL Converter</li>
+<li>5 - Jumper Wires</li>
+<li>2 - Breadboards (since ESPer doesn&rsquo;t fit on one)</li>
+</ul>
+
+<p>That&rsquo;s all for the requirements. Once you&rsquo;re sure you&rsquo;ve got all the stuff, boost ahead!</p>
+
+<hr />
+
+<h1 id="installing-the-mos-tool">Installing the mos Tool</h1>
+
+<p><img src="../img/mos.png" alt="mos ui" />
+The Mongoose OS website provides an easy-to-use tool for <strong>flashing</strong> and <strong>managing</strong>
+Mongoose OS on devices. This tool also aids in uploading code and in numerous other tasks.</p>
+
+<p>The installation instructions have been documented on the official website
+<a href="https://mongoose-os.com/software.html">here</a>.
+Since I&rsquo;m using Lubuntu myself, I had to use the following commands:</p>
+
+<pre><code class="language-bash">sudo add-apt-repository ppa:mongoose-os/mos
+sudo apt-get update
+sudo apt-get install mos
+</code></pre>
+
+<hr />
+
+<h1 id="wiring-up-esper">Wiring up ESPer</h1>
+
+<p><img src="../img/wiring.jpg" alt="Wiring Diagram" />
+Once the tool is downloaded, wire up your ESPer with any <strong>USB to TTL Converter</strong>
+since the flashing is to be done via <strong>UART</strong>.</p>
+
+<p>To keep things applicable to a larger reader-base, I&rsquo;ll be proceeding with my good
+&lsquo;ol <strong>Arduino UNO</strong>. It&rsquo;s possible to use an Arduino as a <strong>USB to TTL Converter</strong>
+since it has an in-built <strong>CH340G Converter</strong> which the Arduino uses for programming
+the ATmega IC.
+Now wire up <strong>ESPer</strong> according to the wiring diagram posted above. Once done it should
+look something like this.</p>
+
+<p><img src="../img/wiring-real.jpg" alt="ESPer Wired Up" /></p>
+
+<blockquote>
+<p>Be careful while making the <strong>power connections</strong> because ESP32 MCU is
+<strong>not 5V tolerable</strong> therefore you might end up burning your MCU if you&rsquo;re not careful.</p>
+</blockquote>
+
+<p>Once that&rsquo;s done, connect your Arduino to your PC or any other device.</p>
+
+<hr />
+
+<h1 id="flashing-the-firmware">Flashing the Firmware</h1>
+
+<p>Now that everything&rsquo;s done, all that&rsquo;s left to do is to flash the firmware onto
+the ESPer board. To do that:</p>
+
+<ul>
+<li>Launch the <strong>mos tool</strong>. In my case, that is Linux, it is opened by entering
+<code>mos</code> in the terminal. This will open up the <strong>mos Web UI</strong> in your web browser.
+<img src="../img/device.png" alt="Device Configuration" /></li>
+<li>In the UI, set the <strong>Arduino Serial Port</strong>, device as <strong>esp32</strong> and an app of
+your choice. Then click on <code>Flash</code>.
+<img src="../img/flash.png" alt="Flashing" /></li>
+<li>After a few moments, the UI will <strong>attempt to connect</strong> to the device. In this
+interval, you&rsquo;ll have to get off from your keyboard to the ESPer board. To connect
+the device to the UI, we&rsquo;ll have to make it enter <strong>Download Mode</strong>. This is done
+by pressing and holding the <strong>Boot</strong> button, and then the <strong>Reset</strong> button. After
+a second, release the <strong>Reset</strong> button first and then the <strong>Boot</strong> button. You&rsquo;ll
+see that the UI will have begun the flashing process by then.</li>
+<li>Once the message <strong>&ldquo;All done&rdquo;</strong> pops up in the console. Close the web browser and
+terminate the <code>mos</code> command by pressing <code>Ctrl+C</code> in the terminal.</li>
+</ul>
+
+<p>This concludes the flashing process.</p>
+
+<hr />
+
+<h1 id="configuring-the-wifi-settings">Configuring the WiFi Settings</h1>
+
+<p><img src="../img/wifi.png" alt="WiFi" />
+So we have flashed the Mongoose OS firmware in our ESPer board now, but we still
+haven&rsquo;t configured the <strong>WiFi Settings</strong> which is the most important feature of
+IoT devices since they have to be connected to the internet. To configure WiFi:</p>
+
+<ul>
+<li>Press the <strong>Reset</strong> button on the ESPer board. Wait for a minute or so to let
+the MCU boot up.</li>
+<li>Launch the <strong>mos tool</strong> again and select your <strong>Arduino Serial Port</strong>. You&rsquo;ll
+notice that the UI automatically detects that the Mongoose OS firmware is installed
+on the device and asks you to enter the WiFi settings.</li>
+<li>Enter the WiFi settings and that&rsquo;s it.</li>
+</ul>
+
+<hr />
+
+<h1 id="the-sky-s-the-limit">The Sky&rsquo;s the Limit</h1>
+
+<p>Now that you&rsquo;ve installed an OS on your ESPer board or ESP32, you can do almost
+anything with it, be it a <strong>mini Arduino</strong> or a <strong>WiFi server</strong>, you name it.
+So go ahead and start coding and making. The video below shows my ESPer flashed
+with the
+<strong>Blink Code</strong>.
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/wEwncJ5RnA0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+</div>
+</p>
+
+<blockquote>
+<p>The video was recorded before this post was published that is why there is no
+silkscreen on the ESPer board.</p>
+</blockquote>
+
+<p>So that&rsquo;s how you install <strong>Mongoose OS</strong> on your <strong>ESPer</strong> board. You may refer
+to the official documentation to get acquainted with the UI and use it effectively
+in your projects. This is the link:
+<a href="https://mongoose-os.com/docs/">Mongoose OS Documentation</a></p>
+
+<p>If you feel that I missed something, please use the <strong>Disqus Comments</strong> below to
+let me know. Same goes for the improvement suggestions.</p>
+
+<p>A huge thanks to <strong><a href="https://www.dfrobot.com">DFRobot</a></strong> for sending me awesome stuff.</p>
+
+<p>Thanks for reading!  :grinning:</p>
+
+<p><strong>Keep Making!</strong></p>
+
+</div>
+
+      <footer>
+  
+   
+  
+  <nav>
+    <ul class="pagination">
+      
+      <li class="page-item">
+        <a href="https://ice-energy.github.io/user9/post/post_003/netjsonconfig/" title="Testing &#34;django-netjsonconfig&#34; " class="page-link">
+          <span aria-hidden="true">&larr;</span>Previous
+        </a>
+      </li>
+       
+      
+    </ul>
+  </nav>
+   
+  
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="pt-4">
+        
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+      <div class="col-xs-12 col-md-3">
+        <div class="sidebar">
+  
+<div class="card card-block">
+  <h4 class="card-title">RECENT POSTS</h4>
+  <div class="card-text">
+    <div class="widget">
+      <ul id="recent-post">
+        
+        <li>
+          <div class="item-thumbnail bg-dark">
+              <a href="https://ice-energy.github.io/user9/post/post_004/mos/" class="thumbnail">
+              
+                  <span class="thumbnail-image thumbnail-none"></span>
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="/user9/post/post_004/mos/" class="title">Mongoose OS on ESPer</a></p>
+            </div>
+        </li>
+        
+        <li>
+          <div class="item-thumbnail bg-dark">
+              <a href="https://ice-energy.github.io/user9/post/post_003/netjsonconfig/" class="thumbnail">
+              
+                  <span class="thumbnail-image thumbnail-none"></span>
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="/user9/post/post_003/netjsonconfig/" class="title">Testing &ldquo;django-netjsonconfig&rdquo;</a></p>
+            </div>
+        </li>
+        
+        <li>
+          <div class="item-thumbnail bg-dark">
+              <a href="https://ice-energy.github.io/user9/post/post_006/gci/" class="thumbnail">
+              
+                  <span class="thumbnail-image thumbnail-none"></span>
+              
+              </a>
+          </div>
+            <div class="item-inner">
+              <p class="item-title"><a href="/user9/post/post_006/gci/" class="title">Google Code-in with OpenWISP</a></p>
+            </div>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<div class="card card-block">
+  <h4 class="card-title">CATEGORIES</h4>
+  <div class="card-text">
+    <div class="widget">
+      <ul>
+        
+        <li class="category-list-item">
+            <a href="/user9/categories/programming/">
+                programming
+            </a>
+            <span class="category-list-count">1</span>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+
+
+
+<div class="card card-block">
+  <h4 class="card-title">TAGS</h4>
+  <div class="card-text">
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/user9/tags/django/">django</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="/user9/tags/esp32/">esp32</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="/user9/tags/google-code-in/">google-code-in</a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li>
+            <a href="/user9/tags/openwisp/">openwisp</a>
+            <span class="category-list-count">2</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+
+
+<div class="card card-block">
+  <h4 class="card-title">TAG CLOUD</h4>
+  <p class="card-text">
+    
+        <a href="/user9/tags/django/" class="badge badge-primary">
+        django
+        </a>
+    
+        <a href="/user9/tags/esp32/" class="badge badge-primary">
+        esp32
+        </a>
+    
+        <a href="/user9/tags/google-code-in/" class="badge badge-primary">
+        google-code-in
+        </a>
+    
+        <a href="/user9/tags/openwisp/" class="badge badge-primary">
+        openwisp
+        </a>
+    
+  </p>
+</div>
+
+
+
+
+</div>
+
+      </div>
+  </div>
+</div>
+      <footer class="footer text-white bg-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <p class="text-xs-center m-a-0 p-a-0">
+          &copy; 2018 Copyright &copy; 2008 - 2018, Ice-Energy; all rights reserved.
+        </p>
+        
+        <p class="text-xs-center  m-a-0 p-a-0">
+            
+          <span class="p-l-1 p-r-1">
+                <a href="/user9/page/license/" class="text-capitalize no-decoration text-white">LICENSE</a>
+              </span>
+              &middot; 
+          <span class="p-l-1 p-r-1">
+                <a href="/user9/page/disclaimer/" class="text-capitalize no-decoration text-white">DISCLAIMER</a>
+              </span>
+                
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=" crossorigin="anonymous"></script>
+
+<script src="/user9/assets/js/highlight.pack.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script src="/user9/assets/js/script.js"></script>
+
+
+
+
+  </body>
+</html>
+

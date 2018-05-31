@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User9 Docs n Recs</title>
+    <link>https://ice-energy.github.io/user9/</link>
+    <description>Recent content on User9 Docs n Recs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ice-energy.github.io/user9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://ice-energy.github.io/user9/page/disclaimer/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/disclaimer/</guid>
+      <description>Disclaimer  Your disclaimer text here NOTE:Some information in this website might be copied from other websites. If you see something is your copyright or something should not belong here, please feel free to contact me. I will remove necessary parts.     </description>
+    </item>
+    
+    <item>
+      <title>Mongoose OS on ESPer</title>
+      <link>https://ice-energy.github.io/user9/post/post_004/mos/</link>
+      <pubDate>Sun, 28 Jan 2018 18:59:43 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_004/mos/</guid>
+      <description>Recently I&amp;rsquo;ve got my hands on the craved-for IoT ESP32, thanks to DFRobot, and have been tinkering with it ever since. I&amp;rsquo;m really amazed by it since it packs both Bluetooth and WiFi in a small yet powerful unit. Since I received the MCU rather than the module, so, to use it, I made myself a breakout board named ESPer(because, why not? :smile:). Feel free to check out its Instructions over here.</description>
+    </item>
+    
+    <item>
+      <title>Testing &#34;django-netjsonconfig&#34;</title>
+      <link>https://ice-energy.github.io/user9/post/post_003/netjsonconfig/</link>
+      <pubDate>Sun, 14 Jan 2018 14:28:40 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_003/netjsonconfig/</guid>
+      <description>A task came up in Google Code-in which asked me to install the django-netjsonconfig module by OpenWISP. Furthermore, I&amp;rsquo;m also supposed to share the challenges I faced during the set-up process as a sort of feedback. I&amp;rsquo;ll be trying be concise in this post so, without further ado, I&amp;rsquo;m beginning with this post.
+Installing &amp;ldquo;django-netjsonconfig&amp;rdquo; The installation instructions for this this module have been well-documented on its GitHub repository. So I began the installation by creating a Python 2.</description>
+    </item>
+    
+    <item>
+      <title>Google Code-in with OpenWISP</title>
+      <link>https://ice-energy.github.io/user9/post/post_006/gci/</link>
+      <pubDate>Sat, 13 Jan 2018 10:29:23 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_006/gci/</guid>
+      <description>Recently I&amp;rsquo;ve been participating in Google Code-in which is Google&amp;rsquo;s initiative to introduce young minds to the concept of FOSS, that is Free or Open-Source Softwares. This post is for sharing my experiences with GCI, as the title suggests. So let&amp;rsquo;s just get on it.
+It all began while I was returning from an outing on 5 December, 2017 and was searching the internet for Google Science Fair to check if I could participate in it or not.</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://ice-energy.github.io/user9/page/license/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/license/</guid>
+      <description>LICENSE  Unless otherwise mentioned code from this blog can used as per MIT or Apache 2.0 license.     </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ice-energy.github.io/user9/page/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/page/about-me/</guid>
+      <description>User Nine Private Pages 
+Need a few lines here for About
+The Sublime, The Poetic, and the Down &amp;amp; Dirty Technical Know-How</description>
+    </item>
+    
+  </channel>
+</rss>

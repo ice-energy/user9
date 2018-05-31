@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on User9 Docs n Recs</title>
+    <link>https://ice-energy.github.io/user9/categories/</link>
+    <description>Recent content in Categories on User9 Docs n Recs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
+    
+	<atom:link href="https://ice-energy.github.io/user9/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programming</title>
+      <link>https://ice-energy.github.io/user9/categories/programming/</link>
+      <pubDate>Sun, 14 Jan 2018 14:28:40 +0530</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
