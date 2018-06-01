@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Ice-Energy; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 May 2018 12:19:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 31 May 2018 12:19:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ice-energy.github.io/user9/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github Plus Hugo</title>
+      <link>https://ice-energy.github.io/user9/post/post_009/githubhugo/</link>
+      <pubDate>Thu, 31 May 2018 12:19:00 -0700</pubDate>
+      
+      <guid>https://ice-energy.github.io/user9/post/post_009/githubhugo/</guid>
+      <description>Hugo is an open-source static website generator. It has many themes and many layouts ready to choose from. Content in Hugo consists of posts that you add using markdown format, and the posts are arranged in a logical directory tree structure. See the Hugo site here: Hugo Website.
+I put together 3 Hugo sites, using the same set of post files. Have a quick look:
+ ice-energy.github.io/jreed ice-energy.github.io/user1 ice-energy.github.io/user9  3 questions you probably have after looking at that:</description>
+    </item>
     
     <item>
       <title>Wall-Mounted Desktop</title>
