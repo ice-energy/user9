@@ -64,7 +64,7 @@ WOWWW!!   Friggin' Awesome!!
 With Hugo installed here's the process I use for creating that website:
 
    - edit content, simple .txt file
-   - Run Hugo from within a shell script, fix some things up  (all automated)
+   - Run Hugo from within a shell script.  This generates the entire static site.
    - use git to check-in all your changes
    - use git to push to github
    - wait a bit for changes to show up
