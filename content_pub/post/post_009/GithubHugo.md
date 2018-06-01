@@ -5,7 +5,7 @@ tags        = ["github"]
 categories  = ["Systems/Solutions"]
 description = "A Hugo Repository stored in github, can be used as a Static Website"
 draft       = false
-banner      = "/jreed/img/cover_githubhugo.jpg"
+banner      = "/user9/img/cover_githubhugo.jpg"
 +++
 
 ---
