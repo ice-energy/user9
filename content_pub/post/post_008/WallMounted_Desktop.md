@@ -119,7 +119,7 @@ can put out a max of only 9.23amps.   So yeah, the MotherBoard will be fine!
 
 **RaidMax RC-044-O** &nbsp; &nbsp; Link here:  [SataPowerCable](https://www.frys.com/product/9050437?source=google&gclid=EAIaIQobChMIjr6xppqi2wIVBA5pCh36jwUqEAYYASABEgIpqvD_BwE)
 
-{{< figure src="../img/sataPowerCabe.jpg" alt="pic8" >}}
+{{< figure src="../img/sataPowerCable.jpg" alt="pic8" >}}
 
 I found this cable off-the-shelf at my local Fry's in Phoenix. (about $6)
 Looks like they've been discontinued, but you can still get them at Fry's.
